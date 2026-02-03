@@ -2,4 +2,5 @@
 
 @theme {
   --grid-app: minmax(18rem, 20rem) 1fr;
+  --grid-profile: max-content 1fr min-content ;
 }
