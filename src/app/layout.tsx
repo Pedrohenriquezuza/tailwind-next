@@ -7,8 +7,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br">
-      <body className="">
+    <html lang="pt-br" className="antialiased">
+      <body>
         <div className="grid grid-cols-(--grid-app) h-screen">
           <Sidebar />
           <main className="px-4 pb-12 pt-8">{children}</main>
