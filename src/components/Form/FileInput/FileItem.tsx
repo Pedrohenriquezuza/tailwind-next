@@ -1,4 +1,4 @@
-import { formatBytes } from "@/app/utils/format-bytes";
+import { formatBytes } from "@/utils/format-bytes";
 import { CheckCircle2, icons, Trash2, UploadCloud } from "lucide-react";
 import { Button } from "../../Button";
 import { tv, VariantProps } from "tailwind-variants";
