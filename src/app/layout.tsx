@@ -9,9 +9,11 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className="antialiased">
       <body>
-        <div className="grid grid-cols-(--grid-app) h-screen">
+        <div className="lg:grid lg:grid-cols-(--grid-app) h-screen">
           <Sidebar />
-          <main className="px-8 pb-12 pt-8">{children}</main>
+          <main className="px-4 pb-12 pt-24 lg:col-start-2 lg:px-8 lg:pt-8 max-w-[100vw]">
+            {children}
+          </main>
         </div>
       </body>
     </html>
