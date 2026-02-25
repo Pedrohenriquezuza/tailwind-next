@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className="antialiased">
       <body>
-        <div className="lg:grid lg:grid-cols-(--grid-app) h-screen">
+        <div className="lg:grid lg:grid-cols-(--grid-app) min-h-screen dark:bg-zinc-900">
           <Sidebar />
           <main className="px-4 pb-12 pt-24 lg:col-start-2 lg:px-8 lg:pt-8 max-w-[100vw]">
             {children}
